@@ -22,7 +22,7 @@ body {
 
     margin-right: 10px;
 
-    float:left; 
+    float:left;
 }
 
 #wrap {
@@ -41,13 +41,14 @@ padding: 0 10px;
 .eksempler {
 
     display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
 .eksempel {
 
-    width: 25%;
+    width: 24%;
 
-    flex-grow: 1;
-  
+
     margin: 5px;
 }
 
