@@ -11,6 +11,13 @@ body {
     margin: 0;
 }
 
+#top{
+    display: flex;
+}
+
+.top_overskrift{
+    flex-basis:330px;
+}
 
 #top  h1 {
     font-family: 'Pirata One';
@@ -81,11 +88,12 @@ transform: scale(1.1,1.1);
 
 .menu {
     margin:0;
-float: right;
+    flex-grow: 1;
+    text-align: right;
 
 }
 .menu li{
-    padding: 10px 35px;
+    padding: 10px 15px;
     transition: all 0.5s;
 
     display: inline-block;
